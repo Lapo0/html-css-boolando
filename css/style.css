@@ -75,8 +75,52 @@ main.main{
 
 .card .card-img{
     position: relative;
+    height: 420px;
+    background-size: cover;
+    margin-bottom: 10px;
 }
 
+#img-1{
+    background-image: url(../img/1.webp);
+}
+#img-1:hover{
+   background-image: url(../img/1b.webp);
+}
+
+#img-2{
+    background-image: url(../img/2.webp);
+}
+#img-2:hover{
+   background-image: url(../img/2b.webp);
+}
+
+#img-3{
+    background-image: url(../img/3.webp);
+}
+#img-3:hover{
+   background-image: url(../img/3b.webp);
+}
+
+#img-4{
+    background-image: url(../img/4.webp);
+}
+#img-4:hover{
+   background-image: url(../img/4b.webp);
+}
+
+#img-5{
+    background-image: url(../img/5.webp);
+}
+#img-5:hover{
+   background-image: url(../img/5b.webp);
+}
+
+#img-6{
+    background-image: url(../img/6.webp);
+}
+#img-6:hover{
+   background-image: url(../img/6b.webp);
+}
 
 .card .card-text h6{
     font-size: 10px;
