@@ -8,68 +8,50 @@ img{
     width: 100%;
 }
 
+.header, .footer{
+    color: white;
+}
+
 .container{
     max-width: 900px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .col ul li{
     display: inline;
-    padding: 0 10px;
+    padding-right: 15px;
 }
 
+.container .col  ul li a{
+    text-decoration: none;
+    color: currentColor;
+}
 
 /*****************
 DEBUG
 ******************/
-.debug .container{
-    background-color: red;
-    padding: 25px;
-    height: 400px;
-    min-height: 500px;
-}
-
-.debug .card{
-    background-color: blue;
-}
-
-.debug .card-text{
-    background-color: green;
-}
-
-.debug header.header{
-    
-    height: 100px;
-}
 
 
 /*HEADER*/
 header.header{
     background-color: rgb(246, 74, 0);
-}
-.header .container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 80px;
-    align-items: center;
-    justify-content: space-between;
+    z-index: 1;
 }
 
-.header .container .col{
-    color: white;
+.header .container{
+    height: 80px;
 }
 
 .header .col .sex ul{
     list-style-type: none;
-}
-
-.col ul li{
-    display: inline;
-    padding: 0 10px;
-}
-
-.header .col .sex ul li a{
-    text-decoration: none;
-    color: currentColor;
 }
 
 .header .col .logo{
@@ -78,7 +60,7 @@ header.header{
 
 /*MAIN*/
 main.main{
-    padding: 50px 0;
+    padding: 130px 0 50px 0;
 }
 
 .main .container{
@@ -87,7 +69,6 @@ main.main{
     column-gap: 10px;
 }
 
-
 .container .card{
     flex-basis: calc((100% - 30px)/3);
 }
@@ -95,6 +76,7 @@ main.main{
 .card .card-img{
     position: relative;
 }
+
 
 .card .card-text h6{
     font-size: 10px;
@@ -145,3 +127,28 @@ main.main{
     color: black;
 }
 
+/*FOOTER*/
+footer.footer{
+    background-color: rgb(29, 26, 24);
+    height: 80px;
+}
+
+.footer .container{
+    height: 80px;
+}
+
+.col .information ul li{
+    font-size: 10px;
+} 
+
+.col .information p .titol{
+    font-size: 20px;
+}
+
+.col .social{
+    text-align: center
+}
+
+.col .social P{
+    margin-bottom: 7px;
+}
