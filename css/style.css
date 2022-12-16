@@ -46,12 +46,21 @@ header.header{
     height: 80px;
 }
 
+.header .container .col{
+    flex-basis: calc(100%/3);
+}
+
 .header .col .sex ul{
     list-style-type: none;
 }
 
 .header .col .logo{
     width: 100px;
+    margin: 0 auto;
+}
+
+.header .col .item{
+    text-align: right;
 }
 
 /*MAIN*/
@@ -119,7 +128,7 @@ main.main{
 }
 
 .card .card-text h6{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 600;
 }
 
