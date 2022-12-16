@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+/*****************
+DEBUG
+******************/
+.debug .container{
+    background-color: red;
+    padding: 25px;
+    height: 400px;
+    min-height: 500px;
+}
+
+.debug .card{
+    background-color: blue;
+}
+
+.debug .card-text{
+    background-color: green;
+}
+/*MAIN*/
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    flex-basis: calc(100%/3);
+    padding: 0 10px 20px 0;
+}
+
+.container .card:nth-child(3n){
+    margin: 0;
+}
+
+.card .card-img{
+    position: relative;
+}
+
+.card .card-text h6{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.card .card-text p{
+    font-size: 10px;
+}
+
+.card .card-img .block-absolute{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+.card-img .block-absolute > *{
+    padding: 0 7px;
+    line-height: 20px;
+    color: white;
+    font-size: 10px;
+}
+
+.card .card-img .discount{
+    background-color: red;
+    display: inline-block;
+}
+
+.card .card-img .sostenibility{
+    background-color: green;
+    display: inline-block;
+
+}
+
+.card .card-img .hearts{
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    padding: 10px;
+}
+
+.card .card-text .price{
+    color: red;
+}
+
+.card .card-text .price span{
+    text-decoration: line-through;
+    color: black;
+}
+
+
