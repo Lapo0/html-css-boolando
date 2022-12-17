@@ -71,7 +71,6 @@ main.main{
 .main .container{
     flex-wrap: wrap;
     row-gap: 30px;
-    column-gap: 10px;
 }
 
 .container .card{
@@ -165,6 +164,10 @@ main.main{
     right: 0px;
     top: 10px;
     padding: 10px;
+}
+
+.card .card-img .hearts:hover{
+    font-size: 20px;
 }
 
 .card .card-text .price{
